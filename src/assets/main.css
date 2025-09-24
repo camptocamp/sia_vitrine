@@ -1,0 +1,59 @@
+@import './base.css';
+@import 'vue3-carousel/carousel.css';
+
+body {
+  font-family: Archivo, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  --opacity: 0.6;
+  --base: white;
+  --transparent-base: rgba(255, 255, 255, var(--opacity));
+  --primary: rgba(0, 58, 91, 1);
+  --transparent-primary: rgba(0, 58, 91, var(--opacity));
+  --secondary: #006199;
+  --tertiary: #be6652;
+  background-color: var(--base);
+  color: var(--primary);
+  font-size: 16px;
+}
+html,
+body,
+#app,
+v-app {
+  display: block;
+  height: 100%;
+}
+
+h1[class*='text-h'],
+h2[class*='text-h'],
+h3[class*='text-h'],
+h4[class*='text-h'],
+h5[class*='text-h'],
+h6[class*='text-h'] {
+  font-family: Archivo, sans-serif !important;
+}
+
+button,
+input,
+textarea {
+  font-family: Archivo, sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  margin-inline-end: 3px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: lightgray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
