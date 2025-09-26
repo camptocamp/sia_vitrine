@@ -14,7 +14,7 @@ const showChrono = computed(() => route.name === 'mobilier')
 <template>
   <div class="container">
     <header>
-      <a href="https://archeologie.telmedia.dev/vitrine-virtuelle" class="home"
+      <a href="https://www.camptocamp.com/" class="home"
         ><img src="@/assets/fleche.svg" alt="Vitrine virtuelle" title="Vitrine virtuelle"
       /></a>
     </header>
@@ -22,11 +22,11 @@ const showChrono = computed(() => route.name === 'mobilier')
     <RouterView class="content" />
 
     <footer>
-      <a href="https://www.pasdecalais.fr/" target="_blank" rel="noopener noreferrer"
-        ><img src="@/assets/departement.svg" alt="departement" width="200"
+      <a href="https://www.camptocamp.com/" target="_blank" rel="noopener noreferrer"
+        ><img src="https://placehold.co/200x49" alt="departement" width="200"
       /></a>
-      <a href="https://archeologie.pasdecalais.fr/" target="_blank" rel="noopener noreferrer">
-        <img src="@/assets/maison.svg" alt="maison" width="200"
+      <a href="https://www.camptocamp.com/" target="_blank" rel="noopener noreferrer">
+        <img src="https://placehold.co/200x49" alt="maison" width="200"
       /></a>
       <div>
         <router-link

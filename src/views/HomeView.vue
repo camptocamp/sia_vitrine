@@ -17,27 +17,12 @@ const chronologieLabel = (mobilier: Mobilier) =>
 <template>
   <div class="content">
     <div class="home" v-if="!displayCarousel">
-      <h1 class="text-xl">Les collections archéologiques se dévoilent pour vous</h1>
+      <h1 class="text-xl">Exemple intégration vitrine virtuelle</h1>
       <p>
-        <strong>Plongez au cœur de 240 000 ans d’histoire du Pas-de-Calais.</strong> La singularité
-        de la Maison de l’archéologie du Pas-de-Calais est de réunir en un seul lieu une équipe de
-        recherche, un centre de conservation et d’étude archéologiques et des espaces ouverts aux
-        publics. Les vestiges issus des diagnostics et des fouilles du Département y sont étudiés et
-        permettent de révéler chaque jour de nouveaux pans de notre histoire. Les découvertes les
-        plus récentes y sont mises en lumière au sein d’expositions ambitieuses renouvelées chaque
-        année. Bifaces paléolithiques, haches polies néolithiques, céramiques gauloises, monnaies
-        antiques ou encore couvre-feux médiévaux sont autant d’objets exceptionnels qui y sont
-        conservés.
+        <strong>Attention !</strong> Les données présentées dans cette vitrine virtuelle sont issues
+        des <a href="https://vitrine.archeologie.pasdecalais.fr/">collections archéologiques du Département du Pas-de-Calais</a>. Elles sont intégrées à fin de tests comme exemple d'intégration avec un backend compatible.
       </p>
 
-      <p>
-        <strong>Ce patrimoine archéologique départemental est aussi le vôtre.</strong> Afin
-        d’élargir et de faciliter l’accessibilité des collections conservées à la Maison de
-        l’archéologie du Pas-de-Calais, le Département a fait le choix de créer cet espace de
-        découverte virtuel.
-      </p>
-
-      <p>Alors, laissez les objets se dévoiler et vous livrer leurs secrets.</p>
       <div>
         <button @click="displayCarousel = true"><span>&#9655;</span> PARCOURIR</button>
       </div>

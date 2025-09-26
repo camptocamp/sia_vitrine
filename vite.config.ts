@@ -24,9 +24,8 @@ export default defineConfig({
     proxy: {
       // with options if you need to use change origin
       '/api': {
-        target: 'http://localhost:8082',
+        target: 'https://vitrine.archeologie.pasdecalais.fr/', // point to vite dev server to use mock server
         changeOrigin: true
-        // rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
   }
