@@ -3,6 +3,8 @@
         
 For testing purpose, backend services are plugged to [SIA Pas-de-Calais](https://vitrine.archeologie.pasdecalais.fr/). Please configure proxy target in `vite.config.ts` to fit your needs.
 
+It requires 4 endpoints & media (which needs a [rework](#4) for easier deploiement)
+
 
 
 ## Project Setup
